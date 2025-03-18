@@ -1,7 +1,10 @@
+import pathlib as pl
+
+import numpy as np
+import pandas as pd
+
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-import pandas as pd
-import pathlib as pl 
 
 
 app = Flask(__name__)
